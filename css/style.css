@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f5f5f5;
+  color: black;
 }
 
 a {
@@ -56,12 +56,12 @@ a:hover {
 .service-box,
 .work-box,
 .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.5);
 }
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px red;
 }
 
 .display-5 {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #3F3D3B;
 }
 
 .overlay-mf {
@@ -137,9 +137,9 @@ a:hover {
 /*--/ Title s /--*/
 
 .title-s {
-  font-weight: 600;
-  color: #1e1e1e;
-  font-size: 1.1rem;
+  font-weight: 800;
+  color: white;
+  font-size: 1.9rem;
 }
 
 /*--/ Title A /--*/
@@ -440,7 +440,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: red;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -460,11 +460,11 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: white;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #191A1A;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
@@ -476,32 +476,32 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: black;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: #191A1A;                               /*===== Navbar links scrolled */
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: white;                     /*=====  underline scrolled Navbar links */
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: white;                             /*===== Navbar hover links scrolled */
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: white;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: white;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -555,7 +555,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: red;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -686,11 +686,11 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: red;
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #191A1A;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -698,7 +698,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #191A1A;
 }
 
 /*======================================
@@ -716,7 +716,7 @@ a:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #0078ff;
 }
 
 .service-box .service-ico {
@@ -800,7 +800,7 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: black;
 }
 
 .work-content .w-like {
