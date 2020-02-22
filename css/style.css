@@ -11,17 +11,20 @@
 
 body {
   background-color: #000000;
-  color: #f5f5f5;
+  color: white;
   font-family: 'Libre Baskerville'
 }
 
 h1,
 h2,
-h3,
 h4,
-h5,
 h6 {
   color: black;
+}
+
+h3,
+h5 {
+  color: white;
 }
 
 a {
@@ -56,12 +59,12 @@ a:hover {
 .service-box,
 .work-box,
 .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 13px 8px -10px rgba(255, 255, 255, 0.5);
 }
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px red;
+  box-shadow: 0 0 0 4px white;
 }
 
 .display-5 {
@@ -161,7 +164,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: white;
   margin: 0 auto;
 }
 
@@ -180,7 +183,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #3F3D3B;
   width: 100px;
   bottom: -12px;
 }
@@ -194,7 +197,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-image: linear-gradient(to bottom right, rgba(25, 26, 26, 0.7), rgba(12, 12, 12, 0.7));     /* BACKGROUND CONTACT FORM */
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -217,14 +220,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px white;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #3F3D3B;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px white;
   transition: all 500ms ease;
 }
 
@@ -247,7 +250,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: white;
   margin-right: 10px;
 }
 
@@ -288,7 +291,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: white;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -308,7 +311,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: white;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -327,7 +330,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: white;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -440,7 +443,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: red;
+  color: white;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -555,7 +558,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: red;
+  background-color: white;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -686,7 +689,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: red;
+  color: white;
 }
 
 .skill-mf .progress {
@@ -715,7 +718,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: white;
   box-shadow: 0 0 0 10px #0078ff;
 }
 
@@ -1093,7 +1096,7 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #0078ff;
+  color: #191A1A;
   border: 1px solid #0078ff;
   display: none;
   text-align: center;
@@ -1151,13 +1154,13 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #191A1A;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
+  background-color: #32302F;
   color: #fff;
   border-color: #cde1f8;
 }
